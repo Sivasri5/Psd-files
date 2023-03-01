@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="webstylebs.css" rel="stylesheet" type:"text/css">
+<style>
+h1{font-family:copperplate; 
+    font-weight : bold;
+    font-size:26pt;}
+</style>
+</head>
+<body bgcolor=violet>
+<div class="container-fluid">
+<form action="actionfile.html">
+ 
+
+<h1><center>REGISTRATION FORM</center></h1>
+
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" placeholder="Enter Name" id="name">
+  </div><br>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+<div class="input-group">
+<span class="input-group-text">@</span>
+    <input type="email" class="form-control" placeholder="Enter email" id="email">
+  </div><br>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div><br>
+  <div class="form-group">
+  <label for="add">Address:</label>
+  <textarea class="form-control" rows="5" id="add"></textarea>
+</div><br>
+
+<div class="form-group">
+    <label for="date">Date:</label>
+    <input type="date" class="form-control" id="date">
+  </div><br>
+
+<div class="form-group">
+    <label for="ph">Phone no:</label>
+    <input type="number" class="form-control" placeholder="Enter Ph.No" id="ph">
+  </div><br>
+
+<div class="form-group">
+    <label for="bk">Book:</label>
+    <input type="text" class="form-control" placeholder="Enter ordered book" id="bk">
+  </div><br>
+
+<div class="form-check-inline">
+<label class="form-check-label">
+<input type="radio" class="form-check-input" name="rt">Rent</label>
+<input type="radio" class="form-check-input" name="by">Buy</label></div><br><br>
+
+<div class="form-group form-check">
+ <label class="form-check-label">
+ <input class="form-check-input" type="checkbox">Hardcover</label><br>
+<input class="form-check-input" type="checkbox">Normal</label>
+  </div><br>
+
+<div class="form-group">
+<label for="gn">Genre</label>
+<select class="form-control" id="gn">
+<option>Action</option>
+<option>Horror</option>
+<option>Comedy</option>
+<option>Comic</option>
+<option>Mystery</option>
+<option>Poetry</option>
+<option>Myth</option>
+</select>
+</div><br>
+
+<div class="form-group">
+<label for="rg">Rate</label>
+<input type="range" class="form-range"></label></div>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+</body>
+</html>
